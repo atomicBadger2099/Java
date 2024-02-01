@@ -1,0 +1,7 @@
+NOTES ON JAVA IDE'S:
+
+
+The most common IDEs used by developers in Java are Eclipse and IntelliJ IDEA.
+IDEs are used to develop software code efficiently.
+
+IDEs serve as the workspace for developing code.
