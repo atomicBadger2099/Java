@@ -1,0 +1,45 @@
+EXAMPLES OF VARIABLES:
+
+--------------------------------------------------------------------------------------------------------------
+I.
+
+public class Main {
+
+  public static void main(String[] args) {
+
+    int x = 123; 
+    float y = 3.14f;	
+    boolean z = true;
+    char symbol = @;
+    String name = "fred";
+			
+    System.out.println("Hello"+name);				//print value of x
+    
+  }
+}
+----------------------------------------------------------------------------------------------------------------
+II.
+
+public class Main {
+
+  public static void main(String[] args) {
+
+    int x = 123; 					//initialization
+    System.out.println("x");				//print value of x string
+
+  }
+}
+----------------------------------------------------------------------------------------------------------------
+III.
+
+
+public class Main {
+
+  public static void main(String[] args) {
+
+    int x = 123; 					//initialization
+    System.out.println("my number is:"+x);		//print value of x with a string of text before it
+
+  }
+}
+-----------------------------------------------------------------------------------------------------------------
