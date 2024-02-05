@@ -1,45 +1,22 @@
-EXAMPLES OF VARIABLES:
+package var_lab;
 
---------------------------------------------------------------------------------------------------------------
-I.
+public class var_lab {
 
-public class Main {
+	public static void main(String[] args) {
+		int x = 123; 
+		float y = 3.14f;
+		Boolean z = true;
+		char symbol = 'Y';
+		String namespace = "Fred";
+		
+		System.out.println("Hello "+x);
+		System.out.println("and also "+y);
+		System.out.println("the switch is in state "+z);
+		System.out.println("YOU ENTERED:"+symbol);
+		System.out.println("YOUR NAME IS:"+namespace);
 
-  public static void main(String[] args) {
+	}
 
-    int x = 123; 
-    float y = 3.14f;	
-    boolean z = true;
-    char symbol = @;
-    String name = "fred";
-			
-    System.out.println("Hello"+name);				//print value of x
-    
-  }
 }
-----------------------------------------------------------------------------------------------------------------
-II.
 
-public class Main {
-
-  public static void main(String[] args) {
-
-    int x = 123; 					//initialization
-    System.out.println("x");				//print value of x string
-
-  }
-}
-----------------------------------------------------------------------------------------------------------------
-III.
-
-
-public class Main {
-
-  public static void main(String[] args) {
-
-    int x = 123; 					//initialization
-    System.out.println("my number is:"+x);		//print value of x with a string of text before it
-
-  }
-}
------------------------------------------------------------------------------------------------------------------
+ 
